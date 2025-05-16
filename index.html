@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog.me</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+      background: #fff;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    h2 {
+      color: #444;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      margin: 0.5rem;
+      border-radius: 8px;
+    }
+    .blog-post {
+      border-bottom: 1px solid #ccc;
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 0.75rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    form button {
+      background: #333;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #222;
+      color: #ccc;
+    }
+    @media (max-width: 600px) {
+      .gallery img {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+
+  <header>
+    <h1>Blog.me</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#blog">Blog</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+
+  <div class="container">
+
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! Welcome to my blog where I share my thoughts, experiences, and creativity. Stay tuned for more updates!</p>
+    </section>
+
+
+    <section id="blog">
+      <h2>Blog Posts</h2>
+      <div class="blog-post">
+        <h3>First Post</h3>
+        <p>This is a sample blog post. You can replace this with your own content.</p>
+        <small>Posted on May 16, 2025</small>
+      </div>
+      <div class="blog-post">
+        <h3>Another Post</h3>
+        <p>This is another sample post with some example text. Add more here!</p>
+        <small>Posted on May 15, 2025</small>
+      </div>
+    </section>
+
+
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <div class="gallery">
+        <img src="https://via.placeholder.com/300" alt="Sample Image 1">
+        <img src="https://via.placeholder.com/300" alt="Sample Image 2">
+        <img src="https://via.placeholder.com/300" alt="Sample Image 3">
+      </div>
+    </section>
+
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+
+  </div>
+
+
+  <footer>
+    &copy; 2025 Blog.me. All rights reserved.
+  </footer>
+
+
+</body>
+</html>
+
